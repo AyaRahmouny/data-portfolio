@@ -58,7 +58,7 @@ Since both data files are too large for GitHub, you need to generate them:
 ### Step 2: Generate the analyzed data
 1. Open `notebooks/sentiment_analysis.ipynb`
 2. Run all cells from top to bottom
-3. This will automatically generate `data/analyzed_reviews.csv`
+3. This will automatically generate `Data/analyzed_reviews.csv`
 
 ### Step 3: Run the dashboard
 ```bash
