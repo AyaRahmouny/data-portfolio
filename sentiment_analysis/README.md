@@ -44,7 +44,19 @@ python -m streamlit run dashboard.py
 | NLTK | Text preprocessing |
 
 ---
+## 📂 Dataset
 
+This project uses the **Amazon Fine Food Reviews** dataset from Kaggle.
+
+Since the dataset is too large for GitHub, you need to download it manually:
+
+1. Go to [Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
+2. Download `Reviews.csv`
+3. Place it in the `data/` folder
+
+> The analysis uses a random sample of **40,000 reviews** from the full dataset
+
+---
 ## 📁 Project Structure     
 sentiment_project/
 │
