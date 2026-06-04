@@ -48,14 +48,22 @@ python -m streamlit run dashboard.py
 
 This project uses the **Amazon Fine Food Reviews** dataset from Kaggle.
 
-Since the dataset is too large for GitHub, you need to download it manually:
+Since both data files are too large for GitHub, you need to generate them:
 
+### Step 1: Download the raw data
 1. Go to [Amazon Fine Food Reviews](https://www.kaggle.com/datasets/snap/amazon-fine-food-reviews)
 2. Download `Reviews.csv`
 3. Place it in the `data/` folder
 
-> The analysis uses a random sample of **40,000 reviews** from the full dataset
+### Step 2: Generate the analyzed data
+1. Open `notebooks/sentiment_analysis.ipynb`
+2. Run all cells from top to bottom
+3. This will automatically generate `data/analyzed_reviews.csv`
 
+### Step 3: Run the dashboard
+```bash
+python -m streamlit run dashboard.py
+```
 ---
 ## 📁 Project Structure     
 sentiment_project/
