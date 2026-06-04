@@ -1,102 +1,70 @@
-# 🛍️ Customer Review Sentiment Analysis
+# Data Analyst Portfolio
 
-Analysis of 40,000+ Amazon customer reviews using Python and NLP to extract 
-business insights about customer satisfaction.
+Hi, I'm an aspiring Data Analyst focused on turning raw data into actionable business insights using **SQL, Python, and data visualization tools**.
 
-![Python](https://img.shields.io/badge/Python-3.12-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.58-red)
-![VADER](https://img.shields.io/badge/NLP-VADER-green)
+This portfolio includes real-world projects in **sales analytics** and **customer behavior analysis**.
 
 ---
 
-## 📊 Live Dashboard
-Run locally with:
-```bash
-python -m streamlit run dashboard.py
-```
+## Projects
+
+### 1. Sales Performance Dashboard (Power BI + SQL)
+
+- Built an interactive **Power BI dashboard** to track sales performance  
+- Performed **data cleaning and transformation using SQL**  
+- Modeled data into a structured format (star schema approach)  
+
+### Key KPIs:
+- Total Revenue  
+- Average Order Value (AOV)  
+- Sales Growth Trends  
+
+### Analysis Covered:
+- Product performance  
+- Customer purchasing behavior  
+- Time-based sales trends  
+
+✔ Delivered actionable insights to support business decision-making  
 
 ---
 
-## 🎯 Project Objectives
-- Analyze customer sentiment across 40,000 reviews
-- Classify reviews into business topics
-- Identify key pain points to improve customer satisfaction
-- Visualize insights through an interactive dashboard
+### 2. Customer Churn Analysis (Python + EDA)
+
+- Performed **exploratory data analysis (EDA)** on customer dataset  
+- Compared **churned vs retained customers**  
+- Calculated key metric:
+  - Churn rate: ~17.7%  
+
+### Analysis Focus:
+- Customer behavior patterns linked to churn  
+- Identification of high-risk customers  
+
+### Tools Used:
+- Pandas (data manipulation)  
+- Matplotlib / Seaborn (visualization)  
+
+✔ Extracted business insights to improve customer retention strategies  
 
 ---
 
-## 🔍 Key Findings
-- **90.1%** of reviews are positive — strong overall customer satisfaction
-- **Product Quality** is the most discussed topic (31.1%)
-- **Delivery & Shipping** accounts for 24.4% of all negative reviews
-- **Taste & Flavor** dominates word frequency — typical for food products
+## Skills
+
+- SQL (data extraction, transformation, joins, aggregations)  
+- Power BI (dashboard design & KPI tracking)  
+- Python (Pandas, NumPy, Matplotlib, Seaborn)  
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Business Insight Generation  
 
 ---
 
-## 🛠️ Tech Stack
-| Tool | Usage |
-|------|-------|
-| Python | Core programming language |
-| Pandas & NumPy | Data manipulation |
-| VADER | Sentiment analysis |
-| Matplotlib & Seaborn | Data visualization |
-| Streamlit | Interactive dashboard |
-| NLTK | Text preprocessing |
+## Goal
+
+To apply data analysis techniques to solve real business problems and support **data-driven decision making** in organizations.
 
 ---
 
-## 📁 Project Structure     
-sentiment_project/
-│
-├── Data/
-│   ├── Reviews.csv               # Raw dataset
-│   └── analyzed_reviews.csv      # Processed results
-│
-├── notebooks/
-│   └── sentiment_analysis.ipynb  # Full analysis
-│
-├── Images/                       # Generated charts
-│
-├── dashboard.py                  # Streamlit dashboard
-└── README.md
----
+## Author
 
-## ⚙️ Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/AyaRahmouny/customer-review-sentiment-analysis
-
-# Install dependencies
-pip install pandas numpy matplotlib seaborn nltk vaderSentiment wordcloud streamlit --user
-
-# Run the dashboard
-python -m streamlit run dashboard.py
-```
-
----
-
-## 📈 Dashboard Preview
-
-### Sentiment Distribution
-![Sentiment](Images/sentiment_distribution.png)
-
-### Topic Analysis
-![Topics](Images/topic_distribution.png)
-
-### Word Cloud
-![WordCloud](Images/wordcloud.png)
-
----
-
-## 💡 Limitations & Future Improvements
-- VADER struggles with mixed-sentiment reviews
-- Keyword-based topic classification can be replaced with LDA
-- Could be improved with a fine-tuned transformer model (BERT)
-
----
-
-## 👩‍💻 Author
-**Aya Rahmouny** — Data Analyst  
-[LinkedIn](https://linkedin.com/in/aya-rahmouny) | 
-[GitHub](https://github.com/AyaRahmouny)
+**Aya Rahmouny**  
+Aspiring Data Analyst | Full Stack Engineering Background
